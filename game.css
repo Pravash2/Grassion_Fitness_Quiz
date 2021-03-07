@@ -23,23 +23,31 @@
 .choice-text {
   padding: 1.5rem;
   width: 100%;
+  
 }
 
 .correct {
   background-color: #28a745;
-  color:#fff;
+
+}
+.correct .choice-text{
+color: #fff;
 }
 
 .incorrect {
   background-color: #28a745;
-  color:#fff;
+
 }
+.incorrect .choice-text{
+  color: #fff;
+  }
 
 /* HUD */
 
 #hud {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .hud-prefix {

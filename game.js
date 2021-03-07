@@ -42,7 +42,7 @@ getNewQuestion = () => {
         return window.location.assign('./end.html');
     }
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressText.innerText = `Completed ${questionCounter}/${MAX_QUESTIONS}`;
     //Update the progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
@@ -57,6 +57,7 @@ getNewQuestion = () => {
 
     availableQuesions.splice(questionIndex, 1);
     acceptingAnswers = true;
+    scoreText.innerText = questionCounter;
 };
 
 choices.forEach((choice) => {
@@ -85,5 +86,5 @@ choices.forEach((choice) => {
 
 incrementScore = (num) => {
     score += parseInt(num)*25;
-    scoreText.innerText = score;
+   
 };
