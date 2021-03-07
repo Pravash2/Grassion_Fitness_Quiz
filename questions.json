@@ -1,26 +1,82 @@
 [
   {
-    "question": "Inside which HTML element do we put the JavaScript??",
-    "choice1": "<script>",
-    "choice2": "<javascript>",
-    "choice3": "<js>",
-    "choice4": "<scripting>",
+    "question": "Which is your favourite food?",
+    "choice1": "I eat less/ I lack appetite",
+    "choice2": "Fruits, Vegetables or Salads",
+    "choice3": "Chicago style Pizza",
+    "choice4": "I mostly eat outside that include junks like Burger, Fast food and other processed foods",
     "answer": 1
   },
   {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    "choice1": "<script href='xxx.js'>",
-    "choice2": "<script name='xxx.js'>",
-    "choice3": "<script src='xxx.js'>",
-    "choice4": "<script file='xxx.js'>",
+    "question": "How often do you Work out?",
+    "choice1": "I am too thin, I feel horrible about my body hence I don’t go out much",
+    "choice2": "Almost Daily",
+    "choice3": "Around 3-5 times a week",
+    "choice4": "Never",
     "answer": 3
   },
   {
-    "question": " How do you write 'Hello World' in an alert box?",
-    "choice1": "msgBox('Hello World');",
-    "choice2": "alertBox('Hello World');",
-    "choice3": "msg('Hello World');",
-    "choice4": "alert('Hello World');",
+    "question": "What is your current weight?",
+    "choice1": "Less than 50 kgs",
+    "choice2": "50-60 kgs",
+    "choice3": "60-75 kgs",
+    "choice4": "More than 80 kg",
+    "answer": 4
+  },
+  {
+    "question": "What is your current height?",
+    "choice1": "Less than 5ft",
+    "choice2": "5 to 5.5ft",
+    "choice3": "5.5 to 5.7ft",
+    "choice4": "Over 5.7ft tall",
+    "answer": 4
+  },
+  {
+    "question": "What is your age?",
+    "choice1": "Below 18",
+    "choice2": "Between 18-25",
+    "choice3": "Between 25-35",
+    "choice4": "Above 35",
+    "answer": 4
+  },
+  {
+    "question": "What do your friends say about your Weight?",
+    "choice1": "I am too thin and they call names like Bony",
+    "choice2": "I am Perfect. They would love to have such a body like me.",
+    "choice3": "I am slightly overweight",
+    "choice4": "I am very fat or look like a Pumpkin",
+    "answer": 4
+  },
+  {
+    "question": "How well do you carry forward your Everyday tasks?",
+    "choice1": "I feel so tired and my energy get drained easily",
+    "choice2": "I am active all the day/ able to do everything easily ",
+    "choice3": "I am not able to do most of the works because of my fat body",
+    "choice4": "I barely move because I weigh too much",
+    "answer": 4
+  },
+  {
+    "question": "Pinch your Belly, you get...",
+    "choice1": "I’m too skinny",
+    "choice2": "Can’t get any skin because I exercise ",
+    "choice3": "A handful",
+    "choice4": "So much fat to grab!",
+    "answer": 4
+  },
+  {
+    "question": "How fast can you run?",
+    "choice1": "I can but I get tired after a while",
+    "choice2": "Yes, quite well",
+    "choice3": "I wish!",
+    "choice4": "I am bed bound due to my weight",
+    "answer": 4
+  },
+  {
+    "question": "What do you think about Body?",
+    "choice1": "I’m slim and very under confident about my health",
+    "choice2": "I feel my body is great ",
+    "choice3": "I am too heavy",
+    "choice4": "I am so fat that I feel so bad about myself",
     "answer": 4
   }
 ]
