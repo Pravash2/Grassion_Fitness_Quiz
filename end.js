@@ -8,7 +8,7 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 const MAX_HIGH_SCORES = 5;
 
-finalScore.innerText = mostRecentScore;
+finalScore.innerText = "";
 
 if(mostRecentScore<=250){
     finalScoreText.innerText = "👉This shows that you must be too thin, weak or underweight. It may also include so many everyday Health issues like osteoporosis, anemia, malnutrition, lack of appetite and many more. You may need to put in some weight or gain some strength.";

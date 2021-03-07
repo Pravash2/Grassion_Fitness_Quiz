@@ -131,3 +131,9 @@ input::placeholder {
   border-radius: 20px;
   background: #efefef;
 }
+#home{
+  border: 1px solid #333;
+  padding: 30px;
+  border-radius: 20px;
+  background: #efefef;
+}
