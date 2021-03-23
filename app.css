@@ -145,6 +145,7 @@ input::placeholder {
   align-items: center;
   text-align: center;
   color: rgba(38, 36, 38, 0.6);
+  margin-top: 20px;
 }
 #home h1 {
   color: linear-gradient(
