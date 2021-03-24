@@ -132,8 +132,13 @@ input::placeholder {
 .landing_page_float_bottom {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 200px;
   z-index: -1;
+  width: 200px;
+}
+.landing_page_float_bottom img {
+  width: 400px;
+  height: 400px;
 }
 #home .landing_caption {
   font-family: Poppins;
@@ -292,6 +297,18 @@ input::placeholder {
   }
   .landing_page_float_bottom {
     width: 50%;
+    right: 20px;
+  }
+  /* .landing_page_float_bottom {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    z-index: -1;
+    width: 200px;
+  } */
+  .landing_page_float_bottom img {
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -352,7 +369,7 @@ input::placeholder {
   #end li {
     font-size: 0.8rem;
   }
-  #end {
+  /* #home {
     margin-top: -200px;
-  }
+  } */
 }
