@@ -10,6 +10,12 @@
 a {
   text-decoration: none;
 }
+heading {
+  position: fixed;
+  height: 70px;
+  background: #25aae1;
+  top: 0;
+}
 
 h1,
 h2,
@@ -122,12 +128,7 @@ input {
 input::placeholder {
   color: #aaa;
 }
-#end {
-  border: 1px solid #363636;
-  padding: 20px;
-  border-radius: 20px;
-  background: #efefef;
-}
+
 .landing_page_float_bottom {
   position: absolute;
   bottom: 0;
@@ -288,5 +289,64 @@ input::placeholder {
   }
   .landing_page_float_bottom {
     width: 50%;
+  }
+}
+
+/****************************************End HTML****************************/
+#end h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 170%;
+  color: #242624;
+}
+#end {
+  text-align: left;
+  align-items: flex-start;
+}
+#end li {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#end ul {
+  margin-bottom: 40px;
+}
+.play_again {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+}
+.go_home {
+  width: 200px;
+  background-color: transparent;
+  border: 1px saddlebrown;
+  color: rgba(37, 170, 225, 1);
+  height: 50px;
+  line-height: 50px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .play_again {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .go_home {
+    width: 100px;
+    background-color: transparent;
+    border: 1px saddlebrown;
+    color: rgba(37, 170, 225, 1);
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+  }
+  #end li {
+    font-size: 0.8rem;
   }
 }

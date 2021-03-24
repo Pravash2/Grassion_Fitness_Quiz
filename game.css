@@ -167,3 +167,10 @@
     font-size: 15px;
   }
 }
+
+heading {
+  position: fixed;
+  height: 70px;
+  background: #25aae1;
+  top: 0;
+}

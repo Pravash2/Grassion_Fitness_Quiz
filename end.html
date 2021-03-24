@@ -11,6 +11,7 @@
 
 <body>
   <div class="container">
+    <heading></heading>
     <div id="end" class="flex-center flex-column">
       <div style="display: flex;">
         <!-- <h1>Your Score: &nbsp;</h1> -->
@@ -23,12 +24,16 @@
           Save
         </button>
       </form> -->
-      <p id="finalScoreText" style="text-align: left;font-size: 20px;margin: 20px;">Loading
-      </p>
-      <p id="finalScoreText2" style="text-align: left;font-size: 20px;margin: 20px;margin-top: 0;">Loading
-      </p>
-      <a class="btn" href="./game.html">Play Again</a>
-      <a class="btn" href="/">Go Home</a>
+      <h1>Result</h1>
+      <ul>
+      <li id="finalScoreText" >Loading
+      </li>
+      <li id="finalScoreText2" >Loading
+      </li>
+      </ul>
+      <div> <a class="pure-material-button-contained play_again" href="./game.html">Play Again</a>
+        <a class="pure-material-button-contained go_home" href="/">Go Home</a></div>
+     
     </div>
   </div>
   <script src="./end.js"></script>
