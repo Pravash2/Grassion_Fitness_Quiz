@@ -35,18 +35,13 @@
   width: 100%;
 }
 
-.correct {
-  background-color: #28a745;
-}
-.correct .choice-text {
-  color: #fff;
+.correct .choice-prefix span {
+  background-color: #25aae1;
 }
 
-.incorrect {
-  background-color: #28a745;
-}
-.incorrect .choice-text {
-  color: #fff;
+.incorrect .choice-prefix span {
+  background-color: #25aae1;
+  box-shadow: 0 0.4rem 1.4rem 0 rgb(86 185 235 / 50%);
 }
 
 /* HUD */
