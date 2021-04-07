@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Congrats!</title>
-  <link rel="stylesheet" href="app.css" />
-</head>
-
-<body>
-  <div class="container">
-    <heading></heading>
-    <div id="end" class="flex-center flex-column">
-      <div style="display: flex;">
-        <!-- <h1>Your Score: &nbsp;</h1> -->
-        <h1 id="finalScore"></h1>
-      </div>
-      <!-- <form>
+  <body>
+    <div class="container">
+      <heading></heading>
+      <div id="end" class="flex-center flex-column">
+        <div style="display: flex">
+          <!-- <h1>Your Score: &nbsp;</h1> -->
+          <h1 id="finalScore"></h1>
+        </div>
+        <!-- <form>
         <input type="text" name="username" id="username" placeholder="Your Name" />
         <input type="text" name="username" id="username" placeholder="Your Name" />
         <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>
           Save
         </button>
       </form> -->
-      <h1>Result</h1>
-      <ul>
-      <li id="finalScoreText" >Loading
-      </li>
-      <li id="finalScoreText2" >Loading
-      </li>
-      </ul>
-      <div> <a class="pure-material-button-contained play_again" href="./game.html">Play Again</a>
-        <a class="pure-material-button-contained go_home" href="/">Go Home</a></div>
-     
+        <h1>Result</h1>
+        <ul>
+          <li id="finalScoreText">Loading</li>
+          <li id="finalScoreText2">Loading</li>
+        </ul>
+        <div>
+          <a
+            class="pure-material-button-contained play_again"
+            href="./game.html"
+            >Play Again</a
+          >
+          <a class="pure-material-button-contained go_home" href="./index.html"
+            >Go Home</a
+          >
+        </div>
+      </div>
     </div>
-  </div>
-  <script src="./end.js"></script>
-</body>
-
+    <script src="./end.js"></script>
+  </body>
 </html>
