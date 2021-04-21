@@ -269,9 +269,9 @@ input::placeholder {
 }
 
 .home_take_quiz {
-  height: 71px;
-  width: 250px;
-  line-height: 71px;
+  width: 220px;
+  height: 60px;
+  line-height: 60px;
   border-radius: 10px;
   margin-top: 50px;
   font-weight: bold;
