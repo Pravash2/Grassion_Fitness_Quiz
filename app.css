@@ -214,10 +214,11 @@ input::placeholder {
   #home .home_take_quiz {
     height: 40px;
     width: 150px;
-
     border-radius: 5px;
     margin-top: 30px;
     background: #25aae1;
+    font-size: 0.8rem;
+    line-height: 10px;
   }
   .landing_page_float_bottom {
     width: 50%;
