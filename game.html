@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quick Quiz - Play</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Quick Quiz - Play</title>
-  <link rel="stylesheet" href="app.css" />
-  <link rel="stylesheet" href="game.css" />
-</head>
-
-<body>
-  <div class="container">
-    <heading></heading>
-    <nav id="game" class="justify-center flex-column">
-      <div id="hud">
-        
-        <div id="hud-item">
-          <p id="progressText" class="hud-prefix">
-            Question No
-          </p>
-          <div id="progressBar">
-            <div id="progressBarFull"></div>
+  <body>
+    <div class="container">
+      <heading></heading>
+      <nav id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix">Question No</p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
           </div>
         </div>
-
-      </div>
-      <div class="question_number_and_name"> <h1 class="hud-main-text" id="score">
-        1
-      </h1>.<h2 id="question">What is the answer to this questions?</h2></div>
-      <div id="all_option" class="row">
-      <div class="choice-container">
-        <p class="choice-prefix"><span></span></p>
-        <p class="choice-text" data-number="1">Choice 1</p>
-      </div>
-      <div class="choice-container">
-        <p class="choice-prefix"><span></span></p>
-        <p class="choice-text" data-number="2">Choice 2</p>
-      </div>
-      <div class="choice-container">
-        <p class="choice-prefix"><span></span></p>
-        <p class="choice-text" data-number="3">Choice 3</p>
-      </div>
-      <div class="choice-container">
-        <p class="choice-prefix"><span></span></p>
-        <p class="choice-text" data-number="4">Choice 4</p>
-      </div>
+        <div class="question_number_and_name">
+          <h1 class="hud-main-text" id="score">1</h1>
+          .
+          <h2 id="question">What is the answer to this questions?</h2>
+        </div>
+        <div id="all_option" class="row">
+          <div class="choice-container">
+            <p class="choice-prefix"><span></span></p>
+            <p class="choice-text" data-number="1">Choice 1</p>
+          </div>
+          <div class="choice-container">
+            <p class="choice-prefix"><span></span></p>
+            <p class="choice-text" data-number="2">Choice 2</p>
+          </div>
+          <div class="choice-container">
+            <p class="choice-prefix"><span></span></p>
+            <p class="choice-text" data-number="3">Choice 3</p>
+          </div>
+          <div class="choice-container">
+            <p class="choice-prefix"><span></span></p>
+            <p class="choice-text" data-number="4">Choice 4</p>
+          </div>
+        </div>
+      </nav>
     </div>
-    </nav>
-  </div>
-  <script src="./game.js"></script>
-</body>
-
+    <script src="./game.js"></script>
+  </body>
 </html>
